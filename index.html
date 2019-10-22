@@ -15,15 +15,15 @@
     <div class="top-bar d-none d-sm-none d-md-none d-lg-block text-center text-muted">
         <div class="container">
             <div class="row">
-                <div class="top-bar-1 col-md-2">
+                <div class="top-bar-1 col-md-3">
                     <a href="" class="text-muted">
-                        <i class="icon-phone"></i>
+                        <i class = "iconfont">&#xe697;</i>
                         <span>关注微信公众号</span>
                         <img src="icon/ewm.jpg" alt="" style="width: 120px;">
                     </a>
                 </div>
-                <div class="top-bar-2 col-md-5">
-                    <i class="icon-tel"></i>
+                <div class="top-bar-2 col-md-4">
+                    <i class="iconfont">&#xe62f;</i>
                     <span>188-8888-8888</span>
                 </div>
                 <div class="top-bar-3 col-md-2">
@@ -32,18 +32,84 @@
                 </div>
                 <div class="top-bar-4 col-md-3">
                     <a type="button" class="btn btn-success btn-sm"> 免费注册</a>
-                    <a >立即登录</a>
+                    <a class="ml-2 text-muted">立即登录</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- 下部分 -->
-    <div class="top bar"></div>
+    <nav class="navbar navbar-expand-lg navbar-light navbar_neck">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="iconfont" style="font-size: 35px;">&#xe600;</i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#neck_menu" aria-controls="neck_menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="neck_menu">
+        <ul class="navbar-nav mr-auto" id="ListOne">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                学科学习 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Web前端+全栈</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Python+人工智能</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">JavaEE+大数据</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">服务体系</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">软件工具</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">专题学习</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1">就业指导</a>
+            </li>
+        </ul>
+        </div>
+        </div>
+    </nav>
 </header>
 <!-- -----------------------------头部-end-------------------------------------->
 
 <!--------------------------------轮播图-Begin------------------------------------>
-<section id="R_carouse"></section>
+<section id="R_carouse">
+    <div id="R_carouse_1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#R_carouse_1" data-slide-to="0" class="active"></li>
+            <li data-target="#R_carouse_1" data-slide-to="1"></li>
+            <li data-target="#R_carouse_1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="icon/1.jpeg" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="icon/2.jpeg" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="icon/3.jpeg" alt="...">
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#R_carouse_1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#R_carouse_1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
 <!-- -----------------------------轮播图-end-------------------------------------->
 
 <!--------------------------------热门课程-Begin------------------------------------>
@@ -67,6 +133,7 @@
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="popper.js"></script>
-	<script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

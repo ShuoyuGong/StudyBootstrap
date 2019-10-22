@@ -8,24 +8,25 @@ body{
 ul,ol{
     list-style: none;
 }
-/* @font-face{
-    font-family: R_fonts;
-    src: url("fonts/msyh.ttc")format("微软雅黑");
-    src: url("fonts/simhei.ttf")format("黑体");
-    src: url("fonts/simkai.ttf")format("楷体");
-    src: url("fonts/simsun.ttc")format("宋体"");
+@font-face {
+    font-family: 'iconfont';
+    src: url('fonts/iconfont.eot');
+    src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/iconfont.woff2') format('woff2'),
+        url('fonts/iconfont.woff') format('woff'),
+        url('fonts/iconfont.ttf') format('truetype'),
+        url('fonts/iconfont.svg#iconfont') format('svg');
 }
-[class = "icon-"],
-[class *= "icon-"]{
-    font-family: 微软雅黑;
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
     font-style: normal;
-} */
+}
 /* -------通用样式结束 --------*/
 
 
 
 /* -------头部开始 --------*/
-#R_header{}
 
 #R_header .top-bar{
     height: 40px;
@@ -60,12 +61,34 @@ ul,ol{
     content: '\e942';
     font-size:13px ;
 }
+
+
+/* 下部分 */
+#R_header .navbar_neck{
+    border-bottom: 1px solid #e0e0e0;
+
+}
+#ListOne li{
+    margin-right: 30px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ListOne li :hover{
+    border-bottom: 2px solid purple;
+}
 /* -------头部结束 --------*/
 
 
 
 /* -------轮播图开始 --------*/
-
+#R_carouse_1 .carousel-item{
+    height: 400px;
+}
+#R_carouse_1 .carousel-item img{
+    width: 100%;
+}
 /* -------轮播图结束 --------*/
 
 
