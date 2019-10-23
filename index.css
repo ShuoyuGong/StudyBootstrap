@@ -84,10 +84,17 @@ ul,ol{
 
 /* -------轮播图开始 --------*/
 #R_carouse_1 .carousel-item{
-    height: 400px;
+    background-repeat: no-repeat center center;
+    -wwbkit-background-size:cover;
+    background-size: cover;
 }
 #R_carouse_1 .carousel-item img{
     width: 100%;
+}
+@media screen and (min-width:900px){
+    #R_carouse_1 .carousel-item{
+        height: 410px;
+    }
 }
 /* -------轮播图结束 --------*/
 
