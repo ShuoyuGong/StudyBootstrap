@@ -5,7 +5,7 @@ $(function(){
         // 设置临界点
         let isShowBigImg = clientW >= 900;
         // 获取所有item
-        let $allItem = $('#R_carouse_1 .carousel-inner .carousel-item');
+        let $allItem = $('#R_carouse_1 .carousel-item');
         // console.log(allItem);
         //遍历
         $allItem.each((index,item) => {
@@ -19,6 +19,12 @@ $(function(){
             $(item).css({
                 backgroundImage:imgUrl,
             })
+            // 创建img标签
+            if(!isShowBigImg){
+                let imgEle = `<img sec = "${src}">`;
+                $(item).empty().append(imgEle);
+            }
+            //  
         })
 
     }).trigger('resize');

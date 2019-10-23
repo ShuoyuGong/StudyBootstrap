@@ -93,9 +93,10 @@ ul,ol{
 }
 @media screen and (min-width:900px){
     #R_carouse_1 .carousel-item{
-        height: 410px;
+        height: 480px;
     }
 }
+
 /* -------轮播图结束 --------*/
 
 
