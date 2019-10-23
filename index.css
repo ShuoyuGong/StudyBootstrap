@@ -106,12 +106,32 @@ ul,ol{
 
 
 /* -------热门课程开始 --------*/
-
 /* -------热门课程结束 --------*/
 
 
 /* -------产品中心开始 --------*/
+#product{
+    background-color: #f0f0f0;
+    padding:40px 0;
+}
+#product .nav-item{
+    font-size:18px ;
 
+}
+#product .nav-item a{
+    color: black;
+    border: none;
+    padding: 10px 20px;
+}
+#product .nav-item a.active{
+    border: none;
+    background-color:transparent;
+    border-bottom: 3px solid purple;
+    color: purple;
+}
+#product .tab-content{
+    padding-top: 20px;
+}
 /* -------产品中心结束 --------*/
 
 
