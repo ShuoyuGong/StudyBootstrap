@@ -27,7 +27,6 @@ ul,ol{
 
 
 /* -------头部开始 --------*/
-
 #R_header .top-bar{
     height: 40px;
     line-height: 39px;
@@ -92,6 +91,11 @@ ul,ol{
     width: 100%;
 }
 @media screen and (min-width:900px){
+    #R_carouse_1 .carousel-item{
+        height: 500px;
+    }
+}
+@media screen and (max-width:900px){
     #R_carouse_1 .carousel-item{
         height: 480px;
     }
