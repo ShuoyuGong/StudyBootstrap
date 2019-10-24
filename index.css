@@ -134,12 +134,9 @@ ul,ol{
 }
 /* -------产品中心结束 --------*/
 
-
-/* -------about开始 --------*/
-
-/* -------about结束 --------*/
-
-
 /* -------footer开始 --------*/
-
+#R_footer .container .row .friendsLink .nav-item img{
+    width: 80px; 
+    height: atuo;
+}
 /* -------footer结束 --------*/

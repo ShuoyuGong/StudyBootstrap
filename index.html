@@ -8,7 +8,7 @@
 	<title>bootstrap4-项目实战</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body style="height: 3000px;">
+<body>
 <!--------------------------------头部-Begin------------------------------------>
 <header id="R_header">
     <!-- 上部分开始 -->
@@ -199,9 +199,9 @@
 
 
 <!--------------------------------产品中心-Begin------------------------------------>
-<section id="product">
+<section id="product" style="overflow: hidden;">
     <div class="container">
-        <div class="row">
+        <div class="row" ">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">在线大学</a>
@@ -232,18 +232,21 @@
                 </li>
             </ul>
         </div>
+    </div>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-8">
-                                <img src="icon/ewm.jpg" class="" style="width: 140px;">
-                                <p class="text-muted">更多资讯欢迎<br>关注撩课学院</p>
-                                <h5 class="alert-secondary">HTML5+全栈/Python+人工智能/JavaEE+大数据</h5>
-                                <h2 class="text-"><b>欢迎来到IT人的在线大学<span class="text-danger"> /</span> 撩课学院 <span class = "text-danger"> /</span></b></h2>
+                            <div class="col-md-7 text-left">
+                                <img src="icon/ewm.jpg" class="mt-4" style="width: 140px;">
+                                <p class="text-muted mt-3">更多资讯欢迎<br>关注撩课学院</p>
+                                <span class="badge-light mt-4 rounded form-control-lg ">HTML5+全栈/Python+人工智能/JavaEE+大数据</span>
+                                <h2 class="mt-5"><b>欢迎来到IT人的在线大学<span class="text-danger"> /</span> 撩课学院 <span class = "text-danger"> /</span></b></h2>
+                                <button href="#" class=" btn btn-primary rounded btn-lg mt-4 mr-4">课程咨询</button>
+                                <button href="#" class=" btn btn-outline-primary rounded btn-lg mt-4">课程咨询</button>
                             </div>
-                            <div class="col-md-4">
-                                <img src="icon/lg1.jpg" alt="">
+                            <div class="col-md-5 text-right">
+                                <img src="icon/lg1.jpg" style="width: 500px;" class="mt-5 d-none d-sm-none d-md-none d-lg-block">
                             </div>
                         </div>
                     </div>
@@ -252,9 +255,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
-        
+                                <img src="icon/lg1.jpg" style="width: 500px;" class="mt-2 d-none d-sm-none d-md-none d-lg-block">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 text-right">
+                                <h1 class="text-warning mb-4 mt-4 ml-5">撩课学院会员</h1>
+                                <p class="ml-5">汇聚名师，为你呈现前端、后端、移动端、大数据、人工智能等从零基础到项目<br>实战连载课程内容。专属的会员社群和私人定制服务，1年365天持续更新课程紧<br>跟前沿技术！</p>
                             </div>
                         </div>
                     </div>
@@ -263,27 +268,69 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8">
-                
+                                <img src="icon/ewm.jpg" class="mt-4" style="width: 140px;">
+                                <p class="text-muted mt-3">更多资讯欢迎<br>关注撩课学院</p>
+                                <span class="badge-light mt-4 rounded form-control-lg ">HTML5+全栈/Python+人工智能/JavaEE+大数据</span>
+                                <h2 class="mt-5"><b>欢迎来到IT人的在线大学<span class="text-danger"> /</span> 撩课学院 <span class = "text-danger"> /</span></b></h2>
+                                <button href="#" class=" btn btn-primary rounded btn-lg mt-4 mr-4">课程咨询</button>
+                                <button href="#" class=" btn btn-outline-primary rounded btn-lg mt-4">课程咨询</button>
                             </div>
                             <div class="col-md-4">
-                                                
+                                <img src="icon/lg1.jpg" style="width: 500px;" class="mt-5 d-none d-sm-none d-md-none d-lg-blockd">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         
-    </div>
+    
 </section>
 <!-- -----------------------------产品中心-end-------------------------------------->
 
 
 <!--------------------------------about us-Begin------------------------------------>
-<section id="R_About"></section>
+<section id="R_About">
+     <!-- 标题 -->
+     <div class="text-center mt-3 mb-3">
+        <h2><strong>关于我们</strong></h2>
+    </div>
+    <div class="conrainer">
+        <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1 ">
+                <p class="text-muted ml-lg-5 mt-lg-5">专注课程质量,提供JavaEE学科,Web前端,Python学科编程技术!,云课堂... 设计软件一课通关零基础系统学摄影 设计师常用的十款软件 设计软件基础 |</p>
+                <p class="text-muted  ml-lg-5">专注课程质量,提供JavaEE学科,Web前端,Python学科编程技术!,云课堂... 设计软件一课通关 零基础系统学摄影 设计师常用的十款软件 设计软件基础 |</p>
+                <p class="text-muted  ml-lg-5">专注课程质量,提供JavaEE学科,Web前端,Python学科编程技术!,云课堂... 设计软件一课通关 零基础系统学摄影 设计师常用的十款软件 设计软件基础 |</p>
+                <p class="text-muted  ml-lg-5">专注课程质量,提供JavaEE学科,Web前端,Python学科编程技术!,云课堂... 设计软件一课通关 零基础系统学摄影 设计师常用的十款软件 设计软件基础 |</p>
+                <p class="text-muted  ml-lg-5 ">专注课程质量,提供JavaEE学科,Web前端,Python学科编程技术!,云课堂... 设计软件一课通关 零基础系统学摄影 设计师常用的十款软件 设计软件基础 |</p>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 mb-sm-3">
+                <img src="icon/sm2.jpg" class="img-thumbnail ml-lg-5">
+            </div>
+        </div>
+    </div>
+</section>
 <!-- -----------------------------about us-end-------------------------------------->
 
-<!--------------------------------尾部-Begin------------------------------------>
-<footer id="R_footer"></footer>
+<!--------------------------------友情链接-Begin------------------------------------>
+<footer id="R_footer">
+     <!-- 标题 -->
+     <div class="text-center mt-3 mb-3">
+            <h2><strong>友情链接</strong></h2>
+    </div>
+    <div class="container">
+        <div class="row mt-4 d-flex justify-content-around align-items-center">
+            <ul class="nav nav-tabs friendsLink text-center" id="myTab" role="tablist ">
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/华为.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/facebook.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/ins.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/teiittwer.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/anzhuo.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/aodi.png" alt=""></li>
+                <li class="nav-item mr-lg-5 mr-sm-2 mr-md-3"><img src="icon/mi.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</footer class="mb-5">
 <!-- -----------------------------尾部-end-------------------------------------->
 
 
