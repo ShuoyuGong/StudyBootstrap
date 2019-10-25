@@ -9,14 +9,14 @@ ul,ol{
     list-style: none;
 }
 @font-face {
-    font-family: 'iconfont';
-    src: url('fonts/iconfont.eot');
-    src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/iconfont.woff2') format('woff2'),
-        url('fonts/iconfont.woff') format('woff'),
-        url('fonts/iconfont.ttf') format('truetype'),
-        url('fonts/iconfont.svg#iconfont') format('svg');
-}
+    font-family: 'iconfont';  /* project id 1470833 */
+    src: url('//at.alicdn.com/t/font_1470833_v5du48jg9v.eot');
+    src: url('//at.alicdn.com/t/font_1470833_v5du48jg9v.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1470833_v5du48jg9v.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1470833_v5du48jg9v.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1470833_v5du48jg9v.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1470833_v5du48jg9v.svg#iconfont') format('svg');
+  }
 .iconfont {
     font-family: "iconfont" !important;
     font-size: 16px;
@@ -134,9 +134,13 @@ ul,ol{
 }
 /* -------产品中心结束 --------*/
 
-/* -------footer开始 --------*/
-#R_footer .container .row .friendsLink .nav-item img{
-    width: 80px; 
+/* -------友情链接开始 --------*/
+#Fl .container .row .friendsLink .nav-item img{
+    width: 65px; 
     height: atuo;
 }
-/* -------footer结束 --------*/
+/* -------友情链接结束 --------*/
+
+/*------------ footer开始 --------*/
+
+/*------------ footer结束 --------*/
